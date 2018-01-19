@@ -1,0 +1,13 @@
+.pager-element {
+	float:left;
+	display: block;
+	padding: 0 5px;
+	margin: 0 5px;
+	font-weight: bold;
+}
+.pager-element[data-page] {
+	text-decoration: underline;
+	cursor: pointer;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
